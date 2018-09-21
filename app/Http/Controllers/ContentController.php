@@ -7,10 +7,21 @@ use Illuminate\Support\Facades\DB;
 
 class ContentController extends Controller
 {
+    public function booking()
+    {
+
+    }
+
+    public function schedule()
+    {
+
+    }
+    
     public function selfStudyChamber()
     {
         $title = 'Consultation & Self-Study Chamber';
-        $text = 'Consultation & Self-Study Chamber adalah ruangan multifungsi yang bertujuan sebagai tempat konsultasi secara one to one mengenai     persiapan segala berkas beasiswa. Selain itu, ruangan ini data digunakan sebagai self-study untuk pelajar dan mahasiswa yang ingin mendapatkan fasligas untuk fokus dalam berkarya. Dalam ruangan ini, direncanakan fasiltas dua kursi yang saling berhadapan dan satu meja yang juga bisa digunakan sebagai media tulis. Stop kontak juga disediakan untuk memudahkan akses charger laptop di salam ruangan. Desain ruangan dibuat transparant dan kedap suara seringa pengguna data merasa lebih private. '; 
+        $text = 'Consultation & Self-Study Chamber adalah ruangan multifungsi yang bertujuan sebagai tempat konsultasi secara one to one mengenai persiapan segala berkas beasiswa. Selain itu, ruangan ini data digunakan sebagai self-study untuk pelajar dan mahasiswa yang ingin mendapatkan fasligas untuk fokus dalam berkarya. Dalam ruangan ini, direncanakan fasiltas dua kursi yang saling berhadapan dan satu meja yang juga bisa digunakan sebagai media tulis. Stop kontak juga disediakan untuk memudahkan akses charger laptop di salam ruangan. Desain ruangan dibuat transparant dan kedap suara seringa pengguna data merasa lebih private. '; 
+        $text = ' juga disediakan untuk memudahkan akses charger laptop di salam ruangan. Desain ruangan dibuat transparant dan kedap suara seringa pengguna data merasa lebih private. '; 
         $images = [
             'img/bg-img/00003.jpg'
         ];
@@ -60,7 +71,7 @@ class ContentController extends Controller
 
     public function hall()
     {
-        $title = 'hall';
+        $title = 'Hall';
         $text = 'Hall adalah multifungsi ruangan yang dapat digunakan sebagai ruangan seminar, talk, teaching yang data dies oleh 100 orang. Ruang ini data di tata menjadi theatre room, seminar room, dan ruang tengah. Ruangan ini dap menjadi pusat kegiatan belajar yang menampung banyak pembelajar dan mewadahi annual, monthly, and weekly event. ';
         $images = [
             'img/bg-img/00003.jpg'
