@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/consultation-and-self-study-chamber','ContentController@selfStudyChamber');
+Route::get('/study-group-chamber','ContentController@studyGroupChamber');
+Route::get('/lesehan','ContentController@lesehan');
+Route::get('/hall','ContentController@hall');
+Route::get('/reading-room','ContentController@readingRoom');
+Route::get('/refreshment-corner','ContentController@refreshmentCorner');
