@@ -1,8 +1,9 @@
 <!-- ##### Newsletter Area Start ##### -->
+
 <section class="newsletter-area section-padding-100-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Newsletter Text -->
+       <!-- <div class="container">
+            <!-- <div class="row align-items-center">
+                <!-- Newsletter Text --> <!--
                 <div class="col-12 col-lg-6 col-xl-7">
                     <div class="newsletter-text mb-100">
                         <h2>Subscribe for a <span>25% Discount</span></h2>
@@ -10,7 +11,7 @@
                     </div>
                 </div>
                 <!-- Newsletter Form -->
-                <div class="col-12 col-lg-6 col-xl-5">
+                <!-- <div class="col-12 col-lg-6 col-xl-5">
                     <div class="newsletter-form mb-100">
                         <form action="#" method="post">
                             <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
@@ -18,8 +19,8 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
     </section>
     <!-- ##### Newsletter Area End ##### -->
 
@@ -50,7 +51,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <div class="collapse navbar-collapse" id="footerNavContent">
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="index.html">Home</a>
+                                          <!--  <a class="nav-link" href="index.html">Home</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="shop.html">Shop</a>
@@ -63,7 +64,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="checkout.html">Checkout</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </nav>
