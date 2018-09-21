@@ -17,7 +17,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $180</p>
-                            <h4>Consultation & Self-Study Chamber</h4>
+                            <h4 style="color:red;">Consultation & Self-Study Chamber</h4>
                         </div>
                     </a>
                 </div>
@@ -30,7 +30,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $180</p>
-                            <h4>Study Group Chamber</h4>
+                            <h4 style="color:red;">Study Group Chamber</h4>
                         </div>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $180</p>
-                            <h4>Lesehan Chamber</h4>
+                            <h4 style="color:red;">Lesehan Chamber</h4>
                         </div>
                     </a>
                 </div>
@@ -56,7 +56,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $180</p>
-                            <h4>Hall</h4>
+                            <h4 style="color:red;">Hall</h4>
                         </div>
                     </a>
                 </div>
@@ -69,7 +69,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $18</p>
-                            <h4>Reading Chamber</h4>
+                            <h4 style="color:red;">Reading Chamber</h4>
                         </div>
                     </a>
                 </div>
@@ -82,7 +82,7 @@
                         <div class="hover-content">
                             <div class="line"></div>
                             <p>From $320</p>
-                            <h4>Refreshment Corner</h4>
+                            <h4 style="color:red;">Refreshment Corner</h4>
                         </div>
                     </a>
                 </div>
