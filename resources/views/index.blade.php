@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Product Catagories Area Start -->
-<div class="amado-pro-catagory clearfix">
+<div class="amado-pro-catagory clearfix"> -->
     <div class="single-products-catagory clearfix">
         <a href="{{ route('self-study-chamber') }}">
             <img src="img/bg-img/SC1.png" alt="">
