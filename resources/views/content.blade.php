@@ -20,32 +20,25 @@
                     <div class="single_product_thumb">
                         <div id="product_details_slider" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
-                                <li data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/pro-big-1.jpg);"></li>
-                                <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/pro-big-2.jpg);"></li>
-                                <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/pro-big-3.jpg);"></li>
-                                <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/pro-big-4.jpg);"></li>
+                                @foreach($images as $image)
+                                    <li 
+                                        data-target="#product_details_slider" 
+                                        data-slide-to="{{ $image['number'] }}" 
+                                        style="background-image: url({{ $image['image'] }});">
+                                    </li>
+                                @endforeach
+                                
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <a class="gallery_img" href="img/product-img/pro-big-1.jpg">
-                                        <img class="d-block w-100" src="img/product-img/pro-big-1.jpg" alt="First slide">
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a class="gallery_img" href="img/product-img/pro-big-2.jpg">
-                                        <img class="d-block w-100" src="img/product-img/pro-big-2.jpg" alt="Second slide">
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a class="gallery_img" href="img/product-img/pro-big-3.jpg">
-                                        <img class="d-block w-100" src="img/product-img/pro-big-3.jpg" alt="Third slide">
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a class="gallery_img" href="img/product-img/pro-big-4.jpg">
-                                        <img class="d-block w-100" src="img/product-img/pro-big-4.jpg" alt="Fourth slide">
-                                    </a>
-                                </div>
+                                
+                                @foreach($images as $image)
+                                    
+                                    <div class="carousel-item {{ $image['status'] }}">
+                                        <a class="gallery_img" href="{{ $image['image'] }}">
+                                            <img class="d-block w-100" src="{{ $image['image'] }}" alt="{{ $image['spell'] }} slide">
+                                        </a>
+                                    </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -88,7 +81,7 @@
                                     <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
                                 </div>
                             </div>
-                            <button type="submit" name="addtocart" value="5" class="btn amado-btn">Book !</button>
+                            <button type="submit" name="addtocart" value="5" class="btn amado-btn">BOOKING !</button>
                         </form>
                     </div>
                 </div>
