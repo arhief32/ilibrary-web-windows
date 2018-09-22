@@ -11,4 +11,7 @@
 <link rel="icon" href=" {{asset('img/core-img/favicon.ico')}}">
 <!-- Core Style CSS -->
 <link rel="stylesheet" href="{{asset('css/core-style.css')}}">
-<link rel="stylesheet" href="{{asset('style.css')}}">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

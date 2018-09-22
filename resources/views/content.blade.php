@@ -48,7 +48,7 @@
                         <!-- Product Meta Data -->
                         <div class="product-meta-data">
                             <div class="line"></div>
-                            <p class="product-price">{{ $price }}</p>
+                            <p class="product-price">Rp {{ $price }},-</p>
                             <a href="#">
                                 <h6>{{ $title }}</h6>
                             </a>
@@ -72,7 +72,7 @@
                             <p>{{ $text }}</p>
                         </div>
                         <!-- Add to Cart Form -->
-                        <form class="cart clearfix" method="post">
+                        <div class="cart clearfix">
                             <div class="cart-btn d-flex mb-50">
                                 <p>Day(s)</p>
                                 <div class="quantity">
@@ -81,8 +81,8 @@
                                     <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
                                 </div>
                             </div>
-                            <button type="submit" name="addtocart" value="5" class="btn amado-btn">BOOKING !</button>
-                        </form>
+                            <button id="booking_button" class="btn amado-btn">BOOKING !</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,5 +91,15 @@
     <!-- Product Details Area End -->
 </div>
 <!-- ##### Main Content Wrapper End ##### -->
+
+<!-- !INMPORTANT - INI JANGAN DIHAPUS BUAT TEST JQUERY DI BOOKINGNYA -->
+<script>
+$(document).ready(function(){
+    $('#booking_button').click(function(){
+        var days = $('#qty').val();
+        console.log(days);
+    });
+});
+</script>
 
 @stop
