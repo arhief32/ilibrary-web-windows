@@ -25,7 +25,7 @@
 <div class="mobile-nav">
     <!-- Navbar Brand -->
     <div class="amado-navbar-brand">
-        <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+        <a href="index.html"><img src="img/core-img/home.png" alt=""></a>
     </div>
     <!-- Navbar Toggler -->
     <div class="amado-navbar-toggler">
@@ -41,7 +41,7 @@
     </div>
     <!-- Logo -->
     <div class="logo">
-        <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+        <a href="index.html"><img src="img/core-img/home.png" alt=""></a>
     </div>
     <!-- Amado Nav -->
     <nav class="amado-nav">
