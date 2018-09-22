@@ -41,7 +41,11 @@
     </div>
     <!-- Logo -->
     <div class="logo">
+<<<<<<< HEAD
         <a href="index.html"><img src="img/core-img/home.png" alt=""></a>
+=======
+        <a href="{{ route('home') }}"><img src="img/core-img/logo.png" alt=""></a>
+>>>>>>> 7faf49ebdc3aac9566268db8c52f0377d2bb1258
     </div>
     <!-- Amado Nav -->
     <nav class="amado-nav">

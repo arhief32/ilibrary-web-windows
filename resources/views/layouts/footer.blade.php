@@ -11,7 +11,11 @@
                 <div class="single_widget_area">
                     <!-- Logo -->
                     <div class="footer-logo mr-50">
+<<<<<<< HEAD
                         <a href="index.html"><img src="img/core-img/home.png" alt=""></a>
+=======
+                        <a href="{{ route('home') }}"><img src="img/core-img/logo2.png" alt=""></a>
+>>>>>>> 7faf49ebdc3aac9566268db8c52f0377d2bb1258
                     </div>
                     <!-- Copywrite Text -->
                     <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
