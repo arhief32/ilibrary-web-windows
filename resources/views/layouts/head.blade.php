@@ -13,8 +13,5 @@
 <link rel="stylesheet" href="{{asset('css/core-style.css')}}">
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
-
-<link href="{{asset('css/layout-style.css')}}" rel="stylesheet" />
-
 <!-- Jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

@@ -54,7 +54,7 @@
 
     <!-- Button Group -->
     <div class="amado-btn-group mt-30 mb-100">
-        <a href="#" class="btn amado-btn mb-15" style="height:40px;">PROMO</a>
+        <a href="#" class="btn amado-btn mb-15">PROMO</a>
     </div>
     
     <!-- Social Button -->
@@ -74,10 +74,10 @@
             <div class="col-12">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mt-50">
-                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px; height:40px">New this week</a></li>
-                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px; height:40px">Weekly Programs</a></li>
-                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px; height:40px">Monthly Programs</a></li>
-                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px; height:40px">Annual Event</a></li>
+                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px;">New this week</a></li>
+                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px;">Weekly Programs</a></li>
+                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px;">Monthly Programs</a></li>
+                        <li><a href="#" class="btn amado-btn" style="margin-right: 15px; margin-top:15; width: 250px;">Annual Event</a></li>
                     </ol>
                 </nav>
             </div>
