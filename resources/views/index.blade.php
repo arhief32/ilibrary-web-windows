@@ -21,10 +21,6 @@
 	- Opportunities *for free scholarship mentorship
 </div>
 
-
-
-
-
 <!-- <section class="carousel slide cid-qBHwCdQuWc" data-interval="false" id="slider2-4" data-rv-view="5725">
     <div class="container content-slider">
         <div class="content-slider-wrap">
@@ -82,12 +78,6 @@
         </div>
     </div>
 </section> -->
-
-
-
-
-
-
 
 <div class="container-fluid">
     <div class="row">
@@ -164,17 +154,6 @@
     	</div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 <style>
 *{
@@ -301,14 +280,5 @@
 	}
 }
 </style>
-
-<!-- <script>
-$(document).ready(function(){
-    $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
-    });
-});
-</script> -->
 
 @stop
