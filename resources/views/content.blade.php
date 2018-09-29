@@ -30,9 +30,7 @@
                                 
                             </ol>
                             <div class="carousel-inner">
-                                
                                 @foreach($images as $image)
-                                    
                                     <div class="carousel-item {{ $image['status'] }}">
                                         <a class="gallery_img" href="{{ $image['image'] }}">
                                             <img class="d-block w-100" src="{{ $image['image'] }}" alt="{{ $image['spell'] }} slide">
